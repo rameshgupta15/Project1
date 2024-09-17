@@ -17,7 +17,7 @@ $releasemetadata =
                   }
 
 $body = $releasemetadata | ConvertTo-Json -Depth 5
-
+#test
 
 #$uri = "https://vsrm.dev.azure.com/dynamicscrm/OneCRM/_apis/Release/definitions/{0}?api-version=5.1" -f $releaseDefinationId
 
